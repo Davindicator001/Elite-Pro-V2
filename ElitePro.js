@@ -33,8 +33,8 @@ const jsobfus = require('javascript-obfuscator')
 const {translate} = require('@vitalets/google-translate-api')
 const scp2 = require('./lib/scraper2') 
 const pkg = require('imgur')
-const { ImgurClient } = pkg
-const client = new ImgurClient({ clientId: "a0113354926015a" })
+const ImgurClient  = require('imgur')
+const client = ImgurClient.clientId= "a0113354926015a"
 const {
     exec,
     spawn,
